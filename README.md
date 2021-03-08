@@ -9,7 +9,7 @@ Se incluye una SPA autogenerada para consumir la API al ejecutar el proyecto:
 CORS está habilitado para que la API se pueda comsumir por aplicaciones cliente externas. Para configurar una url de origen específica se debe agregar al archivo Startup.cs como se muestra a continuación:
 
 ```
-public class Startup`
+public class Startup
 {
 
     private const string CorsConfiguration = "_corsConfiguration";
