@@ -6,7 +6,7 @@ Se incluye una SPA autogenerada para consumir la API al ejecutar el proyecto:
 
 `https://localhost:5001/swagger/index.html`
 
-CORS está habilitado para que la API se pueda comsumir por aplicaciones cliente externas. Para configurar una url de origen específica se debe agregar al archivo Startup.cs como se muestra a continuación:
+CORS está habilitado para que la API se pueda coNsumir por aplicaciones cliente externas. Para configurar una url de origen específica, se debe agregar al archivo Startup.cs como se muestra a continuación:
 
 ```
 public class Startup
